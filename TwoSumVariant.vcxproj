@@ -139,7 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="TwoSumCounter.cpp" />
     <ClCompile Include="TwoSumVariant.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TwoSumCounter.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
